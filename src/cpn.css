@@ -1,0 +1,111 @@
+body{
+    font-family:"Avenir", sans-serif;
+    font-size: 14px;
+}
+button{
+    background-color: inherit;
+    border: none;
+    vertical-align: middle;
+    font-size: inherit;
+}
+button:hover{
+    background-color: #6DB0FC;
+}
+
+.nav-top {
+    background-color: white;
+    padding: 0px 15px;
+    position: sticky;
+    top: 0;
+    min-height: 50px;
+    line-height: 50px;
+    display: flex;
+    box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 0.6);
+}
+.left{
+    flex: 1;
+}
+.left button:hover{
+    background-color: white;
+}
+.left span{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0 15px;
+    line-height: inherit; 
+    align-content: middle;
+}
+.right{
+    margin-left: auto;
+}
+.right span, .top span, .bot span{
+    padding: 0 15px;
+}
+.icon img{
+    width: 25px;
+    height: 25px;
+    border: none;
+}
+.logo img{
+    width: 40px;
+    height: 40px;
+    border: none; 
+    vertical-align: middle;
+}
+.notifications{
+    max-width: 250px;
+    text-align: left;
+    position: sticky;
+    display: block;
+    float: right;
+    margin-right: 95px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.notifications button {
+    background-color: white;
+    padding: 10px;
+    text-align: inherit;
+    box-shadow: none;
+}
+.notifications button:hover {
+    background-color: #6DB0FC;
+    text-align: inherit;
+    box-shadow: none;
+}
+
+.sidebar{
+    background-color: #F4F2F2;
+    display: flex;
+    float: left;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 15%;
+    height: calc(100vh - 50px);
+    overflow: scroll;
+}
+
+.sidebar button{
+    display: inline-flex;
+    text-align: justify;
+    font-weight: 100;
+    padding: 10px 0 10px 20%;
+    align-items: center;
+}
+.sidebar img {
+    max-width: 15%;
+    width: 1000px;
+}
+.top{
+    margin-top: 10vh;
+}
+.bot{
+    margin-bottom: 10vh;
+}
+
+.main{
+    display: flex;
+    margin-left: 17%;
+}
+.content{
+    margin-top: 5vh;
+}

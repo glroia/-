@@ -1,0 +1,25 @@
+.box{
+    width: 150px;
+    height: 100px;
+    margin: 10px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    color: white;
+}
+/*
+.box img{
+    width: 10px;
+    height: 10px;
+    vertical-align: middle;
+}
+*/
+.red{
+    background-color: #FC5653;
+}
+.green{
+    background-color: #3EDC78;
+}
+.blue{
+    background-color: #5BC5FC;
+}
